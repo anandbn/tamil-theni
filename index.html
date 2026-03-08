@@ -161,6 +161,16 @@
       /* Hidden on category slides */
     }
 
+    .word-counter {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--text-color);
+      background: white;
+      padding: 5px 20px;
+      border-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
     .flashcard-container {
       flex-grow: 1;
       display: flex;
@@ -337,6 +347,24 @@
       /* Hide desktop nav buttons on very small screens to encourage swipe, though keeping them is fine too */
     }
 
+
+    .count-btn {
+      background: white;
+      border: 2px solid var(--secondary-color);
+      color: var(--secondary-color);
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      border-radius: 15px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+
+    .count-btn.active {
+      background: var(--secondary-color);
+      color: white;
+    }
+
     /* Hint text */
     .hint {
       position: absolute;
@@ -353,17 +381,33 @@
   <!-- START SCREEN -->
   <div id="start-screen" class="screen active">
     <h1 class="title">தமிழ் Words<br>Flashcards</h1>
-    <button id="start-btn" class="start-btn">START</button>
-    <label class="toggle-container">
+
+    <div class="options-container" style="margin-bottom: 20px;">
+      <h3 style="font-size: 2rem; margin-bottom: 10px; color: var(--text-color);">Words to play:</h3>
+      <div class="word-count-buttons"
+        style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-bottom: 20px;">
+        <button class="count-btn active" data-count="10">10</button>
+        <button class="count-btn" data-count="20">20</button>
+        <button class="count-btn" data-count="30">30</button>
+        <button class="count-btn" data-count="40">40</button>
+        <button class="count-btn" data-count="50">50</button>
+        <button class="count-btn" data-count="ALL">ALL</button>
+      </div>
+    </div>
+
+    <label class="toggle-container" style="margin-bottom: 30px;">
       <input type="checkbox" id="randomize-toggle">
       <span>Randomize Words</span>
     </label>
+
+    <button id="start-btn" class="start-btn">START</button>
   </div>
 
   <!-- MAIN SLIDE SCREEN -->
   <div id="slide-screen" class="screen">
     <div class="top-bar">
       <button id="home-btn" class="home-btn" title="Home">🏠</button>
+      <div id="word-counter" class="word-counter" style="display: none;"></div>
       <div id="timer" class="timer">8</div>
     </div>
 
@@ -397,7 +441,7 @@
             },
             {
               "english": "nose",
-              "tamil": "மூ க்கு"
+              "tamil": "மூக்கு"
             },
             {
               "english": "head",
@@ -417,7 +461,7 @@
             },
             {
               "english": "body",
-              "tamil": "உட ம்பு ( உட ல்)"
+              "tamil": "உடம்பு உடல்"
             },
             {
               "english": "teeth",
@@ -434,7 +478,7 @@
           "words": [
             {
               "english": "rice",
-              "tamil": "அ ரிசி"
+              "tamil": "அரிசி"
             },
             {
               "english": "lentil",
@@ -446,7 +490,7 @@
             },
             {
               "english": "yogurt",
-              "tamil": "த ய ிர்"
+              "tamil": "தய ிர்"
             },
             {
               "english": "sugar",
@@ -458,11 +502,11 @@
             },
             {
               "english": "egg",
-              "tamil": "மு ட்ைட"
+              "tamil": "முட்டை"
             },
             {
               "english": "honey",
-              "tamil": "ேத ன்"
+              "tamil": "தேன்"
             },
             {
               "english": "meat",
@@ -475,7 +519,7 @@
           "words": [
             {
               "english": "home",
-              "tamil": "இல்ல ம்"
+              "tamil": "இல்லம்"
             },
             {
               "english": "entrance",
@@ -483,7 +527,7 @@
             },
             {
               "english": "door",
-              "tamil": "கத வு"
+              "tamil": "கதவு"
             },
             {
               "english": "window",
@@ -507,7 +551,7 @@
             },
             {
               "english": "plate",
-              "tamil": "த ட்டு"
+              "tamil": "தட்டு"
             }
           ]
         },
@@ -520,23 +564,23 @@
             },
             {
               "english": "teacher",
-              "tamil": "ஆ சிரிய ர்"
+              "tamil": "ஆசிரியர்"
             },
             {
               "english": "book",
-              "tamil": "புத்த கம்"
+              "tamil": "புத்தகம்"
             },
             {
               "english": "pen",
-              "tamil": "எ ழுது ேகால்"
+              "tamil": "எழுது ேகால்"
             },
             {
               "english": "book bag",
-              "tamil": "புத்த கப்ைப"
+              "tamil": "புத்தகப்ைப"
             },
             {
               "english": "student",
-              "tamil": "மாண வன்"
+              "tamil": "மாணவன்"
             },
             {
               "english": "classroom",
@@ -544,11 +588,11 @@
             },
             {
               "english": "exam",
-              "tamil": "ேத ர்வு"
+              "tamil": "ேதர்வு"
             },
             {
               "english": "score",
-              "tamil": "மத ிப்ெ பண்"
+              "tamil": "மத ிப்ெபண்"
             }
           ]
         },
@@ -557,27 +601,27 @@
           "words": [
             {
               "english": "mom",
-              "tamil": "அ ம்மா"
+              "tamil": "அம்மா"
             },
             {
               "english": "dad",
-              "tamil": "அ ப்பா"
+              "tamil": "அப்பா"
             },
             {
               "english": "older brother",
-              "tamil": "அ ண் ண ன்"
+              "tamil": "அண்ணன்"
             },
             {
               "english": "older sister",
-              "tamil": "அ க்கா"
+              "tamil": "அக்கா"
             },
             {
               "english": "younger brother",
-              "tamil": "த ம்பி"
+              "tamil": "தம்பி"
             },
             {
               "english": "younger sister",
-              "tamil": "த ங்ைக"
+              "tamil": "தங்ைக"
             },
             {
               "english": "grandfather",
@@ -589,7 +633,7 @@
             },
             {
               "english": "aunt",
-              "tamil": "அ த்ைத"
+              "tamil": "அத்ைத"
             }
           ]
         },
@@ -610,7 +654,7 @@
             },
             {
               "english": "guavas",
-              "tamil": "ெ காய்ய ாப்பழம்"
+              "tamil": "ெகாய்ய ாப்பழம்"
             },
             {
               "english": "custard apple",
@@ -618,19 +662,19 @@
             },
             {
               "english": "jamun fruit",
-              "tamil": "நாவல் பழம்"
+              "tamil": "நாவல்பழம்"
             },
             {
               "english": "pomegranate",
-              "tamil": "மாது ளம்பழம்"
+              "tamil": "மாதுளம்பழம்"
             },
             {
               "english": "fig",
-              "tamil": "அ த்த ிப்பழம்"
+              "tamil": "அத்த ிப்பழம்"
             },
             {
               "english": "pineapple",
-              "tamil": "அ ன்னாசிப்பழம்"
+              "tamil": "அன்னாசிப்பழம்"
             }
           ]
         },
@@ -639,23 +683,23 @@
           "words": [
             {
               "english": "angle",
-              "tamil": "ேகாண ம்"
+              "tamil": "ேகாணம்"
             },
             {
               "english": "square",
-              "tamil": "சது ரம்"
+              "tamil": "சதுரம்"
             },
             {
               "english": "number",
-              "tamil": "எ ண்"
+              "tamil": "எண்"
             },
             {
               "english": "seventy",
-              "tamil": "எ ழுபது"
+              "tamil": "எழுபது"
             },
             {
               "english": "center",
-              "tamil": "ைமய ம்"
+              "tamil": "ைமயம்"
             },
             {
               "english": "interest",
@@ -663,11 +707,11 @@
             },
             {
               "english": "expense",
-              "tamil": "ெ சல வு"
+              "tamil": "ெசலவு"
             },
             {
               "english": "rectangle",
-              "tamil": "ெ சவ்வகம்"
+              "tamil": "ெசவ்வகம்"
             },
             {
               "english": "straight line",
@@ -684,7 +728,7 @@
             },
             {
               "english": "continent",
-              "tamil": "கண் ட ம்"
+              "tamil": "கண்டம்"
             },
             {
               "english": "country",
@@ -692,7 +736,7 @@
             },
             {
               "english": "town",
-              "tamil": "ஊ ர்"
+              "tamil": "ஊர்"
             },
             {
               "english": "city",
@@ -725,11 +769,11 @@
             },
             {
               "english": "caring",
-              "tamil": "அ க்கைற"
+              "tamil": "அக்கைற"
             },
             {
               "english": "help",
-              "tamil": "உத வி"
+              "tamil": "உதவி"
             },
             {
               "english": "devotion",
@@ -749,7 +793,7 @@
             },
             {
               "english": "hug",
-              "tamil": "அ ைண ப்பு"
+              "tamil": "அ ைணப்பு"
             },
             {
               "english": "desire",
@@ -770,7 +814,7 @@
             },
             {
               "english": "naturalgas",
-              "tamil": "இய ற்ைக எ ரிவாயு"
+              "tamil": "இயற்ைக எரிவாயு"
             },
             {
               "english": "plant a tree",
@@ -778,23 +822,23 @@
             },
             {
               "english": "climate",
-              "tamil": "பருவநிைல"
+              "tamil": "பருவநிலை"
             },
             {
               "english": "globalwarming",
-              "tamil": "உல க ெ வப்பமய மாத ல்"
+              "tamil": "உலக ெவப்பமயமாதல்"
             },
             {
               "english": "ocean heat",
-              "tamil": "கட ல் ெ வப்பம்"
+              "tamil": "கடல் ெவப்பம்"
             },
             {
-              "english": "wildfire",
-              "tamil": "காட்டுத்த ீ"
+              "english": "wild fire",
+              "tamil": "காட்டு தீ"
             },
             {
               "english": "deforestation",
-              "tamil": "காட ழிப்பு"
+              "tamil": "காடழிப்பு"
             }
           ]
         },
@@ -811,23 +855,23 @@
             },
             {
               "english": "dawn",
-              "tamil": "விடிய ல்"
+              "tamil": "விடியல்"
             },
             {
               "english": "dusk",
-              "tamil": "அ ந்த ி"
+              "tamil": "அந்தி"
             },
             {
               "english": "solar system",
-              "tamil": "சூரிய க்குடும்பம்"
+              "tamil": "சூரியக்குடும்பம்"
             },
             {
               "english": "mercury (planet)",
-              "tamil": "புத ன் ( ேகாள்)"
+              "tamil": "புதன் ( ேகாள்)"
             },
             {
               "english": "venus",
-              "tamil": "ெ வள்ளி ( ேகாள்)"
+              "tamil": "வெள்ளி ( ேகாள்)"
             },
             {
               "english": "earth",
@@ -835,7 +879,7 @@
             },
             {
               "english": "mars",
-              "tamil": "ெ சவ்வாய் ( ேகாள்)"
+              "tamil": "செவ்வாய் ( ேகாள்)"
             }
           ]
         },
@@ -844,31 +888,31 @@
           "words": [
             {
               "english": "birthday party",
-              "tamil": "பிற ந்த நாள் விழா"
+              "tamil": "பிறந்தநாள் விழா"
             },
             {
               "english": "birthday boy",
-              "tamil": "பிற ந்த நாள் சிறுவன்"
+              "tamil": "பிறந்தநாள் சிறுவன்"
             },
             {
               "english": "birthday girl",
-              "tamil": "பிற ந்த நாள் சிறுமி"
+              "tamil": "பிறந்தநாள் சிறுமி"
             },
             {
               "english": "birthday hat",
-              "tamil": "பிற ந்த நாள் ெ த ாப்பி"
+              "tamil": "பிறந்தநாள்  ெத ாப்பி"
             },
             {
               "english": "age",
-              "tamil": "வய து"
+              "tamil": "வயது"
             },
             {
               "english": "birth date",
-              "tamil": "பிற ந்த  ேத த ி"
+              "tamil": "பிறந்த நாள் தேதி"
             },
             {
               "english": "bouquet",
-              "tamil": "பூங்ெ காத்து"
+              "tamil": "பூங்கொத்து"
             },
             {
               "english": "ribbons",
@@ -876,7 +920,7 @@
             },
             {
               "english": "clown",
-              "tamil": "ேகாமாளி"
+              "tamil": "கோமாளி"
             }
           ]
         },
@@ -885,11 +929,11 @@
           "words": [
             {
               "english": "noun",
-              "tamil": "ெ பய ர்ச் ெ சால்"
+              "tamil": "பெயர்ச்சொல்"
             },
             {
               "english": "grammar",
-              "tamil": "இல க்கண ம்"
+              "tamil": "இலக்கணம்"
             },
             {
               "english": "vowel",
@@ -901,19 +945,19 @@
             },
             {
               "english": "vowelconsonant",
-              "tamil": "உய ிர்ெ மய் எ ழுத்து"
+              "tamil": "உயிரெழுத்து"
             },
             {
               "english": "hard-sounding consonant",
-              "tamil": "வல்ல ினம்"
+              "tamil": "வல்லினம்"
             },
             {
               "english": "soft-sounding consonant",
-              "tamil": "ெ மல்ல ினம்"
+              "tamil": "மெல்லினம்"
             },
             {
               "english": "middle-sounding consonant",
-              "tamil": "இைட ய ினம்"
+              "tamil": "இைடய ினம்"
             },
             {
               "english": "short vowel",
@@ -926,11 +970,11 @@
           "words": [
             {
               "english": "banyan tree",
-              "tamil": "ஆ ல மரம்"
+              "tamil": "ஆலமரம்"
             },
             {
               "english": "coconut tree",
-              "tamil": "ெ த ன்ைனமரம்"
+              "tamil": "ெ தன்ைனமரம்"
             },
             {
               "english": "mango tree",
@@ -942,7 +986,7 @@
             },
             {
               "english": "jackfruit tree",
-              "tamil": "பல ாமரம்"
+              "tamil": "பல ா மரம்"
             },
             {
               "english": "papaya tree",
@@ -954,7 +998,7 @@
             },
             {
               "english": "orange tree",
-              "tamil": "கிச் சில ி மரம்"
+              "tamil": "கிச்சில ி மரம்"
             },
             {
               "english": "pear tree",
@@ -967,7 +1011,7 @@
           "words": [
             {
               "english": "top",
-              "tamil": "ேமல்"
+              "tamil": "மேல்"
             },
             {
               "english": "bottom",
@@ -975,15 +1019,15 @@
             },
             {
               "english": "friend",
-              "tamil": "நண் பன்"
+              "tamil": "நண்பன்"
             },
             {
               "english": "enemy",
-              "tamil": "எ த ிரி"
+              "tamil": "எதிரி"
             },
             {
               "english": "front",
-              "tamil": "மு ன்னால்"
+              "tamil": "முன்"
             },
             {
               "english": "back",
@@ -999,7 +1043,7 @@
             },
             {
               "english": "first",
-              "tamil": "மு த ல்"
+              "tamil": "முதல்"
             }
           ]
         },
@@ -1016,11 +1060,11 @@
             },
             {
               "english": "singer",
-              "tamil": "பாட கர்"
+              "tamil": "பாடகர்"
             },
             {
               "english": "beads",
-              "tamil": "மண ிகள்"
+              "tamil": "மணிகள்"
             },
             {
               "english": "rope",
@@ -1028,15 +1072,15 @@
             },
             {
               "english": "cane",
-              "tamil": "த டி/ பிரம்பு"
+              "tamil": "கயிறு"
             },
             {
               "english": "flute",
-              "tamil": "புல்ல ாங்குழல்"
+              "tamil": "புல்லாங்குழல்"
             },
             {
               "english": "drum",
-              "tamil": "மத்த ளம்"
+              "tamil": "மத்தளம்"
             },
             {
               "english": "snake charmer's flute",
@@ -1057,23 +1101,23 @@
             },
             {
               "english": "sealion",
-              "tamil": "கட ல் சிங்கம்"
+              "tamil": "கடல் சிங்கம்"
             },
             {
               "english": "seahorse",
-              "tamil": "கட ல் குத ிைர"
+              "tamil": "கடல் குத ிைர"
             },
             {
               "english": "walrus",
-              "tamil": "கட ற்ய ாைன"
+              "tamil": "கடற்ய ாைன"
             },
             {
               "english": "blue whale",
-              "tamil": "நீல த் த ிமிங்கில ம்"
+              "tamil": "நீல திமிங்கிலம்"
             },
             {
               "english": "octopus",
-              "tamil": "சில ந்த ி மீன்"
+              "tamil": "சிலந்த ி மீன்"
             },
             {
               "english": "prawn",
@@ -1090,35 +1134,35 @@
           "words": [
             {
               "english": "citizen",
-              "tamil": "குடிமகன் /  குடிமகள்"
+              "tamil": "குடிமகன் /குடிமகள்"
             },
             {
               "english": "citizenship",
-              "tamil": "குடியுரிைம"
+              "tamil": "குடியுரிமை"
             },
             {
               "english": "border",
-              "tamil": "எ ல்ைல"
+              "tamil": "எல்லை"
             },
             {
               "english": "interview",
-              "tamil": "ேநர்காண ல்"
+              "tamil": "நேர்காணல்"
             },
             {
               "english": "immigration",
-              "tamil": "குடிேய ற்ற ம்"
+              "tamil": "குடியேற்றம்"
             },
             {
               "english": "application",
-              "tamil": "விண் ண ப்பம்"
+              "tamil": "விண்ணப்பம்"
             },
             {
               "english": "visa",
-              "tamil": "நுைழவுச்  சான்று"
+              "tamil": "நுைழவுச் சான்று"
             },
             {
               "english": "passport",
-              "tamil": "கட வுச்  சீட்டு"
+              "tamil": "கடவுச் சீட்டு"
             },
             {
               "english": "customs",
@@ -1131,15 +1175,15 @@
           "words": [
             {
               "english": "grain",
-              "tamil": "த ானிய ம்"
+              "tamil": "த ானியம்"
             },
             {
               "english": "paddy",
-              "tamil": "ெ நல்"
+              "tamil": "நெல்"
             },
             {
               "english": "wheat",
-              "tamil": "ேகாது ைம"
+              "tamil": "கோதுமை"
             },
             {
               "english": "corn",
@@ -1147,22 +1191,22 @@
             },
             {
               "english": "wild rice",
-              "tamil": "காட்டு அ ரிசி"
+              "tamil": "காட்டு அரிசி"
             },
             {
               "english": "brown rice",
-              "tamil": "பழுப்பு அ ரிசி"
+              "tamil": "பழுப்பு அரிசி"
             },
             {
               "english": "bamboo rice",
-              "tamil": "மூ ங்கில் அ ரிசி"
+              "tamil": "மூ ங்கில் அரிசி"
             },
             {
               "english": "millet",
-              "tamil": "சிறு த ானிய ம்"
+              "tamil": "சிறு த ானியம்"
             },
             {
-              "english": "lotus seed",
+              "english": "தாமரை விதை",
               "tamil": "த ாமைர விைத"
             }
           ]
@@ -1172,19 +1216,19 @@
           "words": [
             {
               "english": "sidewalk",
-              "tamil": "நைட பாைத"
+              "tamil": "நடைபாதை"
             },
             {
               "english": "schoolzone",
-              "tamil": "பள்ளிப் பகுத ி"
+              "tamil": "பள்ளிப் பகுதி"
             },
             {
               "english": "flyover",
-              "tamil": "ேமம்பால ம்"
+              "tamil": "மேம்பாலம்"
             },
             {
               "english": "subway",
-              "tamil": "சுரங்கப் பாைத"
+              "tamil": "சுரங்கப்பாதை"
             },
             {
               "english": "accident",
@@ -1192,11 +1236,11 @@
             },
             {
               "english": "speed bump",
-              "tamil": "ேவகத் த ைட"
+              "tamil": "வேகத்தடை"
             },
             {
               "english": "drop-off zone",
-              "tamil": "இற க்கி விடும் இட ம்"
+              "tamil": "இறக்கி விடும் இடம்"
             },
             {
               "english": "pothole",
@@ -1204,7 +1248,7 @@
             },
             {
               "english": "traffic",
-              "tamil": "ேபாக்குவரத்து"
+              "tamil": "போக்குவரத்து"
             }
           ]
         }
@@ -1213,6 +1257,7 @@
 
     // STATE //
     let slides = [];
+    let selectedCount = '10';
     let currentSlideIndex = 0;
     let isRandomized = false;
     let timerInterval = null;
@@ -1236,10 +1281,21 @@
     const tamilWord = document.getElementById('tamil-word');
     const timerEl = document.getElementById('timer');
     const hintText = document.getElementById('hint-text');
+    const wordCounter = document.getElementById('word-counter');
 
     // INITIALIZATION //
     function init() {
       startBtn.addEventListener('click', startGame);
+      // Count buttons
+      const countBtns = document.querySelectorAll('.count-btn');
+      countBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          countBtns.forEach(b => b.classList.remove('active'));
+          e.target.classList.add('active');
+          selectedCount = e.target.dataset.count;
+        });
+      });
+
       homeBtn.addEventListener('click', goHome);
 
       // Navigation
@@ -1285,44 +1341,50 @@
     // GENERATE SLIDES //
     function generateSlides() {
       slides = [];
+      let allWords = [];
 
-      if (isRandomized) {
-        // Collect all words and shuffle
-        let allWords = [];
-        wordsData.categories.forEach(category => {
-          category.words.forEach(word => {
-            allWords.push({
-              type: 'word',
-              english: word.english,
-              tamil: word.tamil
-            });
+      // 1. Flatten all words and tag with categoryName
+      wordsData.categories.forEach(category => {
+        category.words.forEach(word => {
+          allWords.push({
+            type: 'word',
+            english: word.english,
+            tamil: word.tamil,
+            categoryName: category.name
           });
         });
+      });
 
+      // 2. Shuffle if randomized
+      if (isRandomized) {
         // Fisher-Yates shuffle
         for (let i = allWords.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [allWords[i], allWords[j]] = [allWords[j], allWords[i]];
         }
+      }
 
+      // 3. Apply Limit
+      if (selectedCount !== 'ALL') {
+        const limit = parseInt(selectedCount, 10);
+        allWords = allWords.slice(0, limit);
+      }
+
+      // 4. Build slides array
+      if (isRandomized) {
         slides = allWords;
       } else {
-        // Sequential with category headers
-        wordsData.categories.forEach(category => {
-          // Add Category Slide
-          slides.push({
-            type: 'category',
-            name: category.name
-          });
-
-          // Add Words
-          category.words.forEach(word => {
+        // Add Category slides sequentially before words of that category
+        let currentCat = null;
+        allWords.forEach(word => {
+          if (word.categoryName !== currentCat) {
+            currentCat = word.categoryName;
             slides.push({
-              type: 'word',
-              english: word.english,
-              tamil: word.tamil
+              type: 'category',
+              name: currentCat
             });
-          });
+          }
+          slides.push(word);
         });
       }
     }
@@ -1361,6 +1423,7 @@
         tamilWord.style.display = 'none';
         timerEl.style.display = 'none';
         hintText.style.display = 'none';
+        wordCounter.style.display = 'none';
 
         flashcard.style.backgroundColor = 'var(--accent-color)';
         flashcard.style.borderColor = 'var(--accent-color)';
@@ -1374,6 +1437,11 @@
         tamilWord.style.display = 'block';
         timerEl.style.display = 'block';
         hintText.style.display = 'block';
+        wordCounter.style.display = 'block';
+
+        const totalWordsCount = slides.filter(s => s.type === 'word').length;
+        const wordsSeen = slides.slice(0, currentSlideIndex + 1).filter(s => s.type === 'word').length;
+        wordCounter.textContent = `Word: ${wordsSeen} / ${totalWordsCount}`;
 
         flashcard.style.backgroundColor = 'white';
         flashcard.style.borderColor = 'var(--primary-color)';
