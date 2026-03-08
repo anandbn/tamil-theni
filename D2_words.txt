@@ -1,0 +1,220 @@
+--- 1 - Body Parts, உட ல் பகுத ிகள் ---
+lungs         - நுைரய ரீ ல்
+eyelid        - இைம
+heart         - இத ய ம்
+intestine     - குட ல்
+shoulder      - ேத ாள்
+bronchialtube - மூ ச் சுக் குழாய்
+foot          - பாத ம்
+palm          - உள்ளங்ைக
+fingerprint   - ைகேரைக
+
+--- 2 - Food & Groceries, உண வு & மளிைக ---
+cotton candy         - பஞ்சுமிட்ட ாய்
+porridge             - கஞ்சி
+soup                 - வடிசாறு
+bread slice          - ெ ராட்டித்து ண் டு
+jam                  - பழக்கூ ட்டு
+tea                  - ேத நீர்
+lemonade             - எ லு மிச் ைச பானம்
+hot water            - ெ வந்நீர்
+tender coconut water - இளநீர்
+
+--- 3 - Household Items, வட்ீடுப் ெ பாருள்கள் ---
+refrigerator - குளிர்சாத னப் ெ பட்டி
+clay pot     - மண் சட்டி
+electric fan - மின்விசிற ி
+water pipe   - த ண் ண ர்ீக்குழாய்
+computer     - கண ினி
+kitchen      - சைமய ல ைற
+bathroom     - குளிய ல ைற
+bedroom      - படுக்ைகய ைற
+mirror       - நிைல க்கண் ண ாடி
+
+--- 4 - School Items, பள்ளிப் ெ பாருள்கள் ---
+paint brush  - வண் ண த் தூ ரிைக
+playground   - விைளய ாட்டுத் த ிட ல்
+race         - பந்த ய ம்
+chalk        - சுண் ண  எ ழுது ேகால்
+trophy       - பரிசுக் ேகாப்ைப
+uniform      - சீருைட
+announcement - அ ற ிவிப்பு
+loud speaker - ஒல ிெ பருக்கி
+interval     - இைட ேவைள
+
+--- 5 - Family, குடும்பம் ---
+mom's older sister    - ெ பரிய ம்மா
+dad's older brother   - ெ பரிய ப்பா
+mom's younger sister  - சித்த ி
+dad's younger brother - சித்த ப்பா
+mother-in-law         - மாமிய ார்
+father-in-law         - மாமனார்
+son-in-law            - மருமகன்
+daughter-in-law       - மருமகள்
+older brother's wife  - அ ண் ண ி
+
+--- 13 - Fruits, பழங்கள் ---
+blackberry     - கருநாவற்பழம்
+sweet lime     - சாத்து க்குடி
+sugar palm     - நுங்கு
+cashew fruit   - மு ந்த ிரிப்பழம்
+wood apple     - விளாம்பழம்
+lychee         - வில ச் சிப்பழம்
+apple          - குமளிப்பழம்
+apricot        - சருக்கைர பாத ாமிப்பழம்
+honeydew melon - ேத ன ீமு ல ாம்பழம்
+
+--- 17 - Numbers and Math, எ ண் கள், கண க்கு ---
+approximate      - ஏற த்த ாழ
+quotient         - ஈவு
+quarter circle   - கால்வட்ட ம்
+half circle      - அ ைரவட்ட ம்
+difference       - ேவறுபாடு
+percentage       - விழுக்காடு
+remainder        - மீத ி
+sum              - ெ த ாைக
+composite number - கல ைவ எ ண்
+
+--- 19 - Geography, புவிய ிய ல் ---
+eclipse             - கிரகண ம்
+earthquake          - நில நடுக்கம்
+typhoon             - சூற ாவளி
+lava                - எ ரிமைல க்குழம்பு
+hemisphere          - அ ைரக்ேகாளம்
+plateau             - படீ பூமி
+tropic of cancer    - கட கக்ேகாடு
+tropic of capricorn - மகரக்ேகாடு
+drain               - வடிகால்
+
+--- 20 - Love and Care, அ ன்பும் அ ரவைண ப்பும் ---
+wedding     - த ிருமண ம்
+responsible - ெ பாறுப்பு
+sympathy    - அ னு த ாபம்
+kindness    - கருைண
+considerate - பரிவு
+humanity    - மனித ேநய ம்
+closeness   - ெ நருக்கம்
+supportive  - ஆ த ரவு
+honesty     - ேநர்ைம
+
+--- 22 - Climate Changes and Pollution, கால நிைல மாற்ற ம் ---
+ozone layer   - ஓேசான் படிவம்
+precipitation - மைழப்ெ பாழிவு
+acid rain     - அ மில மைழ
+aerology      - வளிமண் ட ல  இய ல்
+wind turbine  - காற்று விைசய ாழி
+emission      - உமிழ்வு
+pollutant     - மாசுபடுத்த ி
+ocean acidity - கட ல் அ மில த்த ன்ைம
+adaptation    - ெ பாருந்து ம் த ன்ைம
+
+--- 23 - Astronomy , வானிய ல் ---
+atmosphere        - வளி மண் ட ல ம்
+pole star         - து ருவ நட்சத்த ிரம்
+solar eclipse     - சூரிய  கிரகண ம்
+lunar eclipse     - சந்த ிர கிரகண ம்
+astronomicalclock - வானிய ல் கடிகாரம்
+astronomer        - வானிய ல் நிபுண ர்
+milky way         - பால் ெ வளிய ண் ட ம்
+galaxy            - விண் மீன் மண் ட ல ம்
+lens              - கண் ண ாடி வில்ைல
+
+--- 25 - Birthday, பிற ந்த நாள் ---
+eatables      - த ின்பண் ட ங்கள்
+festoon       - ேத ாரண ம்
+hall          - மண் ட பம்
+balloon       - ஊ த ற்ைப
+blow pipe     - ஊ து  குழாய்
+paper plate   - காகித த் த ட்டு
+birthday song - பிற ந்த நாள் பாட ல்
+nailpolish    - நகப்பூச் சு
+greeting card - வாழ்த்து  அ ட்ைட
+
+--- 29 - Grammar, இல க்கண ம் ---
+antonym              - எ த ிர்ச் ெ சால்
+synonym              - இைண ச் ெ சால்
+toponym              - இட ப்ெ பய ர்
+non cognitive        - அ ஃற ிைண
+object               - ெ சய ப்படு ெ பாருள்
+adjective            - ெ பய ரைட
+adverb               - விைனய ைட
+adjectivalparticiple - ெ பய ெ ரச் சம்
+adverbialparticiple  - விைனெ ய ச் சம்
+
+--- 30 - Trees, மரங்கள் ---
+dates tree         - ஈச் சமரம்
+sandalwood tree    - சந்த னமரம்
+custard apple tree - சீத ாப்பழ மரம்
+mulberry tree      - மு சுக்கட்ைட  மரம்
+nutmeg tree        - ஜ ாத ி மரம்
+tamarind tree      - புளிய மரம்
+teakwood tree      - ேத க்கு மரம்
+jamun tree         - நாவல் மரம்
+pipaltree          - அ ரசமரம்
+
+--- 34 - Opposites, எ த ிர்ச் ெ ச ாற்கள் ---
+unity     - ஒற்றுைம
+diversity - ேவற்றுைம
+near      - அ ருகில்
+far       - ெ த ாைல வில்
+fast      - விைரவாக
+slow      - ெ மது வாக
+thief     - த ிருட ன்
+police    - காவல ன்
+peace     - சமாத ானம்
+
+--- 38 - Arts and Crafts, கைல களு ம் ைகவிைனப்ெ பாருள்களு ம் ---
+pottery           - மட்பாண் ட த்ெ த ாழில்
+conch chain       - சங்கு மாைல
+craft             - ைகவிைன
+clay doll         - களிமண்  ெ பாம்ைம
+musicalinstrument - இைசக் கருவி
+wax doll          - ெ மழுகு ெ பாம்ைம
+wooden doll       - மரப்பாச் சி ெ பாம்ைம
+paper mask        - காகித  மு கமூ டி
+jewelry making    - நைககள் ெ சய்த ல்
+
+--- 42 - Sea Creatures, நீர் வாழ் உய ிரினங்கள் ---
+anchovies   - ெ நத்த ில ி மீன்
+sea urchin  - கட ல் மு ள்ெ ளல ி
+barracuda   - சீல ா மீன்
+butter Fish - விற ால் மீன்
+catfish     - ெ களு த்த ி மீன்
+eel         - வில ாங்கு மீன்
+jellyfish   - இழுது  மீன்
+kingfish    - வஞ்சர மீன்
+lobster     - சிங்கி இற ால்
+
+--- 46 - Immigration, குடிேய ற்ற ம் ---
+foreign policy      - ெ வளிநாட்டுக் ெ காள்ைக
+individualliberty   - த னிமனித  சுத ந்த ிரம்
+asylum              - புகல ிட ம்
+customs declaration - சுங்கச்  சாற்றுைர
+customs duty        - சுங்கத் த ீர்ைவ
+declaration         - சாற்றுத ல்
+origin              - ேத ாற்ற ம்
+denial              - மறுப்பு
+amnesty             - ெ பாது  மன்னிப்பு
+
+--- 47 - Grains, விைத மண ிகள் ---
+pearlmillet     - கம்பு
+moth bean       - நரிப் பய று
+oats            - காைட க் கண் ண ி
+horse gram      - ெ காள்ளு
+buckwheat       - மரக் ேகாது ைம
+browntop millet - குல  சாைம
+foxtailmillet   - த ிைன
+finger millet   - ேகழ்வரகு
+kodo millet     - வரகு
+
+--- 62 - Roadways, ச ாைல வழி ---
+lane merge         - பாைத  இைண ப்பு
+detour (diversion) - மாற்றுப்பாைத
+yield              - இைசந்து  ெ காடு
+pedestrian         - பாத சாரி
+construction       - கட்டுமானம்
+entry ramp         - நுைழவு சரிவுப் பாைத
+exit ramp          - ெ வளிேய றும் சரிவுப் பாைத
+turn signal        - த ிருப்ப சமிக்ைஞ
+lane change        - பாைத  மாற்ற ம்
+
