@@ -38,6 +38,50 @@
         {
           "english": "fingerprint",
           "tamil": "ைகேரைக"
+        },
+        {
+          "english": "cheek",
+          "tamil": "கன்னம்"
+        },
+        {
+          "english": "elbow",
+          "tamil": "மு ழங்ைக"
+        },
+        {
+          "english": "bone",
+          "tamil": "எ லு ம்பு"
+        },
+        {
+          "english": "hip",
+          "tamil": "இடுப்பு"
+        },
+        {
+          "english": "spine",
+          "tamil": "மு து ெ கலு ம்பு"
+        },
+        {
+          "english": "toe",
+          "tamil": "கால்விரல்"
+        },
+        {
+          "english": "bonejoint",
+          "tamil": "எ லு ம்பு மூ ட்டு"
+        },
+        {
+          "english": "throat",
+          "tamil": "ெ த ாண் ைட"
+        },
+        {
+          "english": "brain",
+          "tamil": "மூ ைள"
+        },
+        {
+          "english": "blood",
+          "tamil": "குருத ி"
+        },
+        {
+          "english": "knee",
+          "tamil": "மு ழங்கால்"
         }
       ]
     },
@@ -79,6 +123,50 @@
         {
           "english": "tender coconut water",
           "tamil": "இளநீர்"
+        },
+        {
+          "english": "breakfast",
+          "tamil": "காைல  உண வு"
+        },
+        {
+          "english": "lunch",
+          "tamil": "மத ிய  உண வு"
+        },
+        {
+          "english": "dinner",
+          "tamil": "இரவு உண வு"
+        },
+        {
+          "english": "feast",
+          "tamil": "விருந்து"
+        },
+        {
+          "english": "Fruit Juice",
+          "tamil": "பழச் சாறு"
+        },
+        {
+          "english": "cumin",
+          "tamil": "சீரகம்"
+        },
+        {
+          "english": "turmeric",
+          "tamil": "மஞ்சள்"
+        },
+        {
+          "english": "chilipowder",
+          "tamil": "மிளகாய்த்தூ ள்"
+        },
+        {
+          "english": "ginger",
+          "tamil": "இஞ்சி"
+        },
+        {
+          "english": "almond",
+          "tamil": "வாது ைமப் பருப்பு"
+        },
+        {
+          "english": "peanut",
+          "tamil": "ேவர்க்கட ைல"
         }
       ]
     },
@@ -120,6 +208,50 @@
         {
           "english": "mirror",
           "tamil": "நிைல க்கண் ண ாடி"
+        },
+        {
+          "english": "telephone",
+          "tamil": "ெ த ாைல ேபசி"
+        },
+        {
+          "english": "television",
+          "tamil": "ெ த ாைல காட்சிப்ெ பட்டி"
+        },
+        {
+          "english": "radio",
+          "tamil": "வாெ னால ி"
+        },
+        {
+          "english": "mobile",
+          "tamil": "ைகப்ேபசி"
+        },
+        {
+          "english": "electric light",
+          "tamil": "மின்விளக்கு"
+        },
+        {
+          "english": "chandelier",
+          "tamil": "சரவிளக்கு"
+        },
+        {
+          "english": "photograph",
+          "tamil": "புைகப்பட ம்"
+        },
+        {
+          "english": "scissors",
+          "tamil": "கத்த ரிக்ேகால்"
+        },
+        {
+          "english": "latch",
+          "tamil": "த ாழ்ப்பாள்"
+        },
+        {
+          "english": "pillow",
+          "tamil": "த ைல ய ைண"
+        },
+        {
+          "english": "blanket",
+          "tamil": "ேபார்ைவ"
         }
       ]
     },
@@ -161,6 +293,50 @@
         {
           "english": "interval",
           "tamil": "இைட ேவைள"
+        },
+        {
+          "english": "black board",
+          "tamil": "கரும்பல ைக"
+        },
+        {
+          "english": "memorize",
+          "tamil": "மனப்பாட ம்"
+        },
+        {
+          "english": "read",
+          "tamil": "படி"
+        },
+        {
+          "english": "home work",
+          "tamil": "வட்ீடுப்பாட ம்"
+        },
+        {
+          "english": "certificate",
+          "tamil": "சான்ற ித ழ்"
+        },
+        {
+          "english": "research",
+          "tamil": "ஆ ராய்ச் சி"
+        },
+        {
+          "english": "pass",
+          "tamil": "ேத ர்ச் சி"
+        },
+        {
+          "english": "socialscience",
+          "tamil": "சமூ க அ ற ிவிய ல்"
+        },
+        {
+          "english": "headmaster",
+          "tamil": "த ைல ைம ஆ சிரிய ர்"
+        },
+        {
+          "english": "schoolbus",
+          "tamil": "பள்ளிப்ேபருந்து"
+        },
+        {
+          "english": "poem",
+          "tamil": "கவிைத"
         }
       ]
     },
@@ -202,6 +378,50 @@
         {
           "english": "older brother's wife",
           "tamil": "அ ண் ண ி"
+        },
+        {
+          "english": "relatives",
+          "tamil": "உற வினர்கள்"
+        },
+        {
+          "english": "family",
+          "tamil": "குடும்பம்"
+        },
+        {
+          "english": "parents",
+          "tamil": "ெ பற்ேற ார்"
+        },
+        {
+          "english": "groom",
+          "tamil": "மண மகன்"
+        },
+        {
+          "english": "bride",
+          "tamil": "மண மகள்"
+        },
+        {
+          "english": "ancestors",
+          "tamil": "மு ன்ேனார்"
+        },
+        {
+          "english": "grandkids",
+          "tamil": "ேபரக்குழந்ைத கள்"
+        },
+        {
+          "english": "great grandfather",
+          "tamil": "ெ காள்ளு த்த ாத்த ா"
+        },
+        {
+          "english": "great grandmother",
+          "tamil": "ெ காள்ளு ப்பாட்டி"
+        },
+        {
+          "english": "siblings",
+          "tamil": "உட ன்பிற ந்த வர்கள்"
+        },
+        {
+          "english": "niece",
+          "tamil": "உட ன்பிற ந்ேத ார் மகள்"
         }
       ]
     },
@@ -243,6 +463,50 @@
         {
           "english": "honeydew melon",
           "tamil": "ேத ன ீமு ல ாம்பழம்"
+        },
+        {
+          "english": "muskmelon",
+          "tamil": "கீரண ிப்பழம்"
+        },
+        {
+          "english": "kiwifruit",
+          "tamil": "பசல ிப்பழம்"
+        },
+        {
+          "english": "avocado",
+          "tamil": "ெ வண் ெ ண ய்ப்பழம்"
+        },
+        {
+          "english": "bellfruit",
+          "tamil": "பஞ்சல ிப்பழம்"
+        },
+        {
+          "english": "strawberry",
+          "tamil": "ெ சம்புற்றுப்பழம்"
+        },
+        {
+          "english": "tamarind fruit",
+          "tamil": "புளிய ம்பழம்"
+        },
+        {
+          "english": "blueberry",
+          "tamil": "அ வுரிெ நல்ல ி"
+        },
+        {
+          "english": "cantaloupe",
+          "tamil": "மஞ்சள் மு ல ாம்பழம்"
+        },
+        {
+          "english": "cranberry",
+          "tamil": "குருத ி ெ நல்ல ி"
+        },
+        {
+          "english": "dragon fruit",
+          "tamil": "விருத்த ிரப்பழம்"
+        },
+        {
+          "english": "plantain fruit",
+          "tamil": "ேநந்த ிரம்பழம்"
         }
       ]
     },
@@ -284,6 +548,50 @@
         {
           "english": "composite number",
           "tamil": "கல ைவ எ ண்"
+        },
+        {
+          "english": "geometry",
+          "tamil": "வடிவிய ல்"
+        },
+        {
+          "english": "octagon",
+          "tamil": "எ ண் ேகாண ம்"
+        },
+        {
+          "english": "pentagon",
+          "tamil": "ஐங்ேகாண ம்"
+        },
+        {
+          "english": "hexagon",
+          "tamil": "அ றுேகாண ம்"
+        },
+        {
+          "english": "sphere",
+          "tamil": "ேகாளம்"
+        },
+        {
+          "english": "right angle",
+          "tamil": "ெ சங்ேகாண ம்"
+        },
+        {
+          "english": "perpendicular",
+          "tamil": "ெ சங்குத்து க்ேகாடு"
+        },
+        {
+          "english": "parallel",
+          "tamil": "இைண  ேகாடு"
+        },
+        {
+          "english": "diameter",
+          "tamil": "விட்ட ம்"
+        },
+        {
+          "english": "trapezoid",
+          "tamil": "சரிவகம்"
+        },
+        {
+          "english": "intersection",
+          "tamil": "குறுக்குெ வட்டு"
         }
       ]
     },
@@ -325,6 +633,50 @@
         {
           "english": "drain",
           "tamil": "வடிகால்"
+        },
+        {
+          "english": "distributaries",
+          "tamil": "கிைள நத ிகள்"
+        },
+        {
+          "english": "smog",
+          "tamil": "பனிப்புைக"
+        },
+        {
+          "english": "Geyser",
+          "tamil": "ெ காத ிநீர்ஊ ற்று"
+        },
+        {
+          "english": "gulf",
+          "tamil": "வைளகுட ா"
+        },
+        {
+          "english": "ore",
+          "tamil": "த ாது ப்ெ பாருள்"
+        },
+        {
+          "english": "primitive man",
+          "tamil": "ெ த ால்மாந்த ர்"
+        },
+        {
+          "english": "crater",
+          "tamil": "எ ரிமைல வாய்"
+        },
+        {
+          "english": "blizzard",
+          "tamil": "பனிப்புய ல்"
+        },
+        {
+          "english": "archipelago",
+          "tamil": "த ீவுக்கூ ட்ட ம்"
+        },
+        {
+          "english": "border line,boundary",
+          "tamil": "எ ல்ைல க்ேகாடு"
+        },
+        {
+          "english": "moat",
+          "tamil": "அ கழி"
         }
       ]
     },
@@ -366,6 +718,50 @@
         {
           "english": "honesty",
           "tamil": "ேநர்ைம"
+        },
+        {
+          "english": "committed",
+          "tamil": "உறுத ி"
+        },
+        {
+          "english": "attachment",
+          "tamil": "இைண ப்பு"
+        },
+        {
+          "english": "good natured",
+          "tamil": "அ ன்புள்ளம்"
+        },
+        {
+          "english": "loyalty",
+          "tamil": "நன்னம்பிக்ைக"
+        },
+        {
+          "english": "greatness",
+          "tamil": "ேமன்ைம"
+        },
+        {
+          "english": "value",
+          "tamil": "மத ிப்பு"
+        },
+        {
+          "english": "consolation",
+          "tamil": "ஆ றுத ல்"
+        },
+        {
+          "english": "appreciation",
+          "tamil": "பாராட்டு"
+        },
+        {
+          "english": "forgiveness",
+          "tamil": "ெ பாறுத்த ருளல்"
+        },
+        {
+          "english": "patriotism",
+          "tamil": "நாட்டுப்பற்று"
+        },
+        {
+          "english": "forever",
+          "tamil": "எ ன்ெ ற ன்றும்"
         }
       ]
     },
@@ -407,6 +803,50 @@
         {
           "english": "adaptation",
           "tamil": "ெ பாருந்து ம் த ன்ைம"
+        },
+        {
+          "english": "mitigate",
+          "tamil": "மட்டுப்படுத்து"
+        },
+        {
+          "english": "biodegradable",
+          "tamil": "மக்கும்"
+        },
+        {
+          "english": "reduce pollution",
+          "tamil": "மாசுபாடு குைற த்த ல்"
+        },
+        {
+          "english": "nature conservation",
+          "tamil": "இய ற்ைகப் பாது காப்பு"
+        },
+        {
+          "english": "naturalresources maintenance",
+          "tamil": "இய ற்ைகவள பராமரிப்பு"
+        },
+        {
+          "english": "oilspill",
+          "tamil": "எ ண் ைண ய்க் கசிவு"
+        },
+        {
+          "english": "nuclear waste",
+          "tamil": "அ ணு க் கழிவு"
+        },
+        {
+          "english": "toxic waste",
+          "tamil": "நச் சுக்கழிவு"
+        },
+        {
+          "english": "plastic waste",
+          "tamil": "ெ நகிழிக் கழிவு"
+        },
+        {
+          "english": "industrialwaste",
+          "tamil": "ெ த ாழிற்சாைல க் கழிவு"
+        },
+        {
+          "english": "solar radiation",
+          "tamil": "சூரிய க் கத ிர்வச்ீசு"
         }
       ]
     },
@@ -448,6 +888,50 @@
         {
           "english": "lens",
           "tamil": "கண் ண ாடி வில்ைல"
+        },
+        {
+          "english": "asteroid",
+          "tamil": "குறுங்ேகாள்"
+        },
+        {
+          "english": "planetoid",
+          "tamil": "வான்ேகாள்"
+        },
+        {
+          "english": "meteor shower",
+          "tamil": "எ ரிகல் ெ பாழிவு"
+        },
+        {
+          "english": "equator",
+          "tamil": "பூமத்த ிய  ேரைக"
+        },
+        {
+          "english": "light year",
+          "tamil": "ஒளிய ாண் டு"
+        },
+        {
+          "english": "ionosphere",
+          "tamil": "அ ய னி மண் ட ல ம்"
+        },
+        {
+          "english": "cosmology",
+          "tamil": "அ ண் ட விய ல்"
+        },
+        {
+          "english": "cosmic rays",
+          "tamil": "அ ண் ட க்கத ிர்கள்"
+        },
+        {
+          "english": "solar filter",
+          "tamil": "சூரிய  வடிகட்டி"
+        },
+        {
+          "english": "inner planets",
+          "tamil": "உட் ேகாள்கள்"
+        },
+        {
+          "english": "exoplanets",
+          "tamil": "புற க்ேகாள்கள்"
         }
       ]
     },
@@ -489,6 +973,50 @@
         {
           "english": "greeting card",
           "tamil": "வாழ்த்து  அ ட்ைட"
+        },
+        {
+          "english": "celebration",
+          "tamil": "ெ காண் ட ாட்ட ம்"
+        },
+        {
+          "english": "tablecloth",
+          "tamil": "ேமைச விரிப்பு"
+        },
+        {
+          "english": "table decoration",
+          "tamil": "ேமைச அ ல ங்காரம்"
+        },
+        {
+          "english": "face painting",
+          "tamil": "மு க ஓவிய ம்"
+        },
+        {
+          "english": "confetti",
+          "tamil": "காகி்த்த து ண் டுகள்"
+        },
+        {
+          "english": "goodie bag",
+          "tamil": "அ ன்பளிப்புப் ைப"
+        },
+        {
+          "english": "water gun",
+          "tamil": "த ண் ண ர்ீத் து ப்பாக்கி"
+        },
+        {
+          "english": "seriallight",
+          "tamil": "ெ த ாட ர் விளக்கு"
+        },
+        {
+          "english": "magic show",
+          "tamil": "மாய வித்ைத  நிகழ்ச் சி"
+        },
+        {
+          "english": "thank you note",
+          "tamil": "நன்ற ிக் குற ிப்பு"
+        },
+        {
+          "english": "hospitality",
+          "tamil": "உபசரிப்பு"
         }
       ]
     },
@@ -530,6 +1058,50 @@
         {
           "english": "adverbialparticiple",
           "tamil": "விைனெ ய ச் சம்"
+        },
+        {
+          "english": "preposition",
+          "tamil": "ேவற்றுைம உருபு"
+        },
+        {
+          "english": "active voice",
+          "tamil": "ெ சய்விைன"
+        },
+        {
+          "english": "passive voice",
+          "tamil": "ெ சய ப்பாட்டு விைன"
+        },
+        {
+          "english": "first person",
+          "tamil": "த ன்ைம"
+        },
+        {
+          "english": "second person",
+          "tamil": "மு ன்னிைல"
+        },
+        {
+          "english": "third person",
+          "tamil": "பட ர்க்ைக"
+        },
+        {
+          "english": "conjunction",
+          "tamil": "இைண ப்புச் ெ சால்"
+        },
+        {
+          "english": "ideophone",
+          "tamil": "இரட்ைட க்கிளவி"
+        },
+        {
+          "english": "double word",
+          "tamil": "அ டுக்குத் ெ த ாட ர்"
+        },
+        {
+          "english": "noun denoting rationalbeings",
+          "tamil": "உய ர்த ிைண"
+        },
+        {
+          "english": "rhyming compound word",
+          "tamil": "இைண ெ மாழி"
         }
       ]
     },
@@ -571,6 +1143,50 @@
         {
           "english": "pipaltree",
           "tamil": "அ ரசமரம்"
+        },
+        {
+          "english": "portia tree",
+          "tamil": "பூவரசமரம்"
+        },
+        {
+          "english": "babooltree",
+          "tamil": "ேவல மரம்"
+        },
+        {
+          "english": "eucalyptus tree",
+          "tamil": "ைத ல மரம்"
+        },
+        {
+          "english": "camphor tree",
+          "tamil": "கற்பூர மரம்"
+        },
+        {
+          "english": "rosewood tree",
+          "tamil": "ஈட்டி மரம்"
+        },
+        {
+          "english": "Casuarina tree",
+          "tamil": "சவுக்கு மரம்"
+        },
+        {
+          "english": "arecanut tree",
+          "tamil": "பாக்கு மரம்"
+        },
+        {
+          "english": "gooseberry tree",
+          "tamil": "ெ நல்ல ி மரம்"
+        },
+        {
+          "english": "gulmohar",
+          "tamil": "ெ சம்மய ில் ெ கான்ைற"
+        },
+        {
+          "english": "golden shower tree",
+          "tamil": "ெ கான்ைற  மரம்"
+        },
+        {
+          "english": "spanish cherry tree",
+          "tamil": "மகிழமரம்"
         }
       ]
     },
@@ -612,6 +1228,50 @@
         {
           "english": "peace",
           "tamil": "சமாத ானம்"
+        },
+        {
+          "english": "fight",
+          "tamil": "சண் ைட"
+        },
+        {
+          "english": "strength",
+          "tamil": "பல ம்"
+        },
+        {
+          "english": "weakness",
+          "tamil": "பல வனீம்"
+        },
+        {
+          "english": "silence",
+          "tamil": "நிசப்த ம்"
+        },
+        {
+          "english": "noise",
+          "tamil": "சத்த ம்"
+        },
+        {
+          "english": "young",
+          "tamil": "இளைம"
+        },
+        {
+          "english": "elder",
+          "tamil": "மு து ைம"
+        },
+        {
+          "english": "justice",
+          "tamil": "நீத ி"
+        },
+        {
+          "english": "injustice",
+          "tamil": "அ நீத ி"
+        },
+        {
+          "english": "export",
+          "tamil": "ஏற்றுமத ி"
+        },
+        {
+          "english": "import",
+          "tamil": "இற க்குமத ி"
         }
       ]
     },
@@ -653,6 +1313,50 @@
         {
           "english": "jewelry making",
           "tamil": "நைககள் ெ சய்த ல்"
+        },
+        {
+          "english": "bamboo basket",
+          "tamil": "மூ ங்கில் கூ ைட"
+        },
+        {
+          "english": "bead chain",
+          "tamil": "மண ி மாைல"
+        },
+        {
+          "english": "palm leaf hat",
+          "tamil": "பைன ஓைல த் ெ த ாப்பி"
+        },
+        {
+          "english": "jute work",
+          "tamil": "சண ல் ேவைல"
+        },
+        {
+          "english": "wood work",
+          "tamil": "மர ேவைல"
+        },
+        {
+          "english": "architecture",
+          "tamil": "கட்ட ட க்கைல"
+        },
+        {
+          "english": "wooden temple",
+          "tamil": "மரக் ேகாய ில்"
+        },
+        {
+          "english": "stone temple",
+          "tamil": "கற்ேகாய ில்"
+        },
+        {
+          "english": "brick building",
+          "tamil": "ெ சங்கல் கட்ட ட ம்"
+        },
+        {
+          "english": "puppet show",
+          "tamil": "ெ பாம்மல ாட்ட ம்"
+        },
+        {
+          "english": "folk dance",
+          "tamil": "கிராமிய  நட னம்"
         }
       ]
     },
@@ -694,6 +1398,50 @@
         {
           "english": "lobster",
           "tamil": "சிங்கி இற ால்"
+        },
+        {
+          "english": "mullet",
+          "tamil": "ெ கண் ைட  மீன்"
+        },
+        {
+          "english": "parrotfish",
+          "tamil": "கிளி மூ க்கு மீன்"
+        },
+        {
+          "english": "redsnapper",
+          "tamil": "சங்கரா மீன்"
+        },
+        {
+          "english": "ribbonfish",
+          "tamil": "வாைல  மீன்"
+        },
+        {
+          "english": "sawfish",
+          "tamil": "ேகால ா மீன்"
+        },
+        {
+          "english": "seabass",
+          "tamil": "ெ காடுவா மீன்"
+        },
+        {
+          "english": "cuttlefish",
+          "tamil": "கண வாய் மீன்"
+        },
+        {
+          "english": "swordfish",
+          "tamil": "வாள் மீன்"
+        },
+        {
+          "english": "tigerfish",
+          "tamil": "கீச் சான்"
+        },
+        {
+          "english": "yellow tuna",
+          "tamil": "கீைர மீன்"
+        },
+        {
+          "english": "seawasp",
+          "tamil": "கட ல் குளவி"
         }
       ]
     },
@@ -735,6 +1483,50 @@
         {
           "english": "amnesty",
           "tamil": "ெ பாது  மன்னிப்பு"
+        },
+        {
+          "english": "work permit",
+          "tamil": "ேவைல  அ னு மத ி"
+        },
+        {
+          "english": "resettlement",
+          "tamil": "மீள் குடிேய ற்ற ம்"
+        },
+        {
+          "english": "foreign currency",
+          "tamil": "ெ வளிநாட்டுப் பண ம்"
+        },
+        {
+          "english": "embassy",
+          "tamil": "தூ த ரகம்"
+        },
+        {
+          "english": "work permit",
+          "tamil": "ேவைல  அ னு மத ி"
+        },
+        {
+          "english": "smuggle",
+          "tamil": "கட த்த ல்"
+        },
+        {
+          "english": "traffick",
+          "tamil": "ஆ ட்கட த்த ல்"
+        },
+        {
+          "english": "alien",
+          "tamil": "அ ந்நிய ர்"
+        },
+        {
+          "english": "sponsor",
+          "tamil": "ஆ த ரிப்பவர்"
+        },
+        {
+          "english": "homeland",
+          "tamil": "த ாய்நாடு"
+        },
+        {
+          "english": "refugee camp",
+          "tamil": "அ கத ிகள் மு காம்"
         }
       ]
     },
@@ -776,6 +1568,50 @@
         {
           "english": "kodo millet",
           "tamil": "வரகு"
+        },
+        {
+          "english": "little millet",
+          "tamil": "சாைம"
+        },
+        {
+          "english": "flax seed",
+          "tamil": "ஆ ளி விைத"
+        },
+        {
+          "english": "barnyard millet",
+          "tamil": "குத ிைரவால ி"
+        },
+        {
+          "english": "barley",
+          "tamil": "வாற்ேகாது ைம"
+        },
+        {
+          "english": "quinoa",
+          "tamil": "சீைமத்த ிைன"
+        },
+        {
+          "english": "sorghum",
+          "tamil": "ேசாளம்"
+        },
+        {
+          "english": "proso millet",
+          "tamil": "பனிவரகு"
+        },
+        {
+          "english": "chia seed",
+          "tamil": "சிய ா விைத"
+        },
+        {
+          "english": "hemp seed",
+          "tamil": "கண க்கு விைத"
+        },
+        {
+          "english": "poppy seed",
+          "tamil": "கசகசா"
+        },
+        {
+          "english": "basilseed",
+          "tamil": "த ிருநீற்றுப்பச் ைச விைத"
         }
       ]
     },
@@ -817,6 +1653,50 @@
         {
           "english": "lane change",
           "tamil": "பாைத  மாற்ற ம்"
+        },
+        {
+          "english": "median",
+          "tamil": "சாைல  இைட நிைல"
+        },
+        {
+          "english": "curbside",
+          "tamil": "சாைல  ஓரம்"
+        },
+        {
+          "english": "cul-de-sac",
+          "tamil": "மு ட்டுச்  சந்து"
+        },
+        {
+          "english": "pull-over",
+          "tamil": "சாைல  ஓர நிறுத்த ம்"
+        },
+        {
+          "english": "road shoulder",
+          "tamil": "சாைல  ஓரப் பகுத ி"
+        },
+        {
+          "english": "reserved parking",
+          "tamil": "மு ன்பத ிவு ெ சய்ய ப்பட்ட  நிறுத்து மிட ம்"
+        },
+        {
+          "english": "traffic jam",
+          "tamil": "ேபாக்குவரத்து  ெ நரிசல்"
+        },
+        {
+          "english": "driveway",
+          "tamil": "ஓட்டுப் பாைத"
+        },
+        {
+          "english": "distracted driving",
+          "tamil": "கவனச் சித ற லு ட ன் வாகனம் ஓட்டுத ல்"
+        },
+        {
+          "english": "parking garage",
+          "tamil": "வாகன நிறுத்து மிட ம்"
+        },
+        {
+          "english": "road signs",
+          "tamil": "சாைல  குற ிய டுீ கள்"
         }
       ]
     }

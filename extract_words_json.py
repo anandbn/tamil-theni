@@ -14,6 +14,7 @@ def clean_text(text, is_english=False):
     if not text:
         return ""
     text = text.replace('(cid:0)', '')
+    text = text.replace('\n', ' ')
     text = text.strip()
     if is_english:
         text = clean_english(text)
@@ -46,7 +47,7 @@ with pdfplumber.open('Theni Word List - 2026.pdf') as pdf:
             # Identify our table by checking for D1 or D2
             if 'D1' in header_row or 'D2' in header_row:
                 for row in table[2:]:
-                    c0 = clean_text(row[0])
+                    c0 = clean_text(row[0]).replace(' ', '')
                     # Ensure it's a data row by checking the 'No' column
                     if not c0.isdigit():
                         continue
